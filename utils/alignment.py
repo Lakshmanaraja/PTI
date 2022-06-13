@@ -4,6 +4,8 @@ import PIL.Image
 import scipy
 import scipy.ndimage
 import dlib
+import copy
+from PIL import Image
 
 
 def get_landmark(filepath, predictor):
